@@ -1,0 +1,285 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .menu li {
+        margin-left: 0;
+    }
+    .banner-content h1 {
+        font-size: 35px;
+    }
+    .banner-content p {
+        margin: 20px 0;
+    }
+    .banner-wave svg {
+        bottom: -80px;
+    }
+    .banner-content a {
+        font-size: 20px;
+    }
+    .banner-img {
+        margin-top: 15px;
+    }
+    .recipes {
+        padding: 65px 0;
+    }
+    .recipes-heading h2 {
+        font-size: 18px;
+    }
+    .recipes-heading h1 {
+        font-size: 28px;
+    }
+    .recipes-heading h1 hr.bg-1 {
+        bottom: -7px;
+        width: 143px;
+    }
+    .card-body span.price {
+        font-size: 18px;
+        margin-left: 29%;
+    }
+    .about-content h2 {
+        font-size: 18px;
+    }
+    .about-content h2 hr.bg-2 {
+        width: 117px;
+        bottom: -14px;
+        z-index: -1;
+    }
+    .about-content h1 {
+        font-size: 30px;
+    }
+    .about-video span:nth-child(2) {
+        right: 34.5%;
+        top: 114px;
+    }
+    .about-video span:nth-child(1) {
+        right: 25.5%;
+        top: 90px;
+    }
+    .about-us {
+        padding: 60px 0 60px 0;
+        background-image: linear-gradient(180deg, rgba(252,216,140,1)100%,rgba(0,0,0,0.7)50%), url(../images/bgc.jpg);
+    }
+    .about-video {
+        display: none;
+    }
+    .about-video a {
+        top: 116px;
+        right: 45.5%;
+    }
+    .menus {
+        padding: 60px 0 30px 0;
+    }
+    .menus-btn ul li {
+        display: block;
+        font-size: 16px;
+        text-align: center;
+        margin-right: 0;
+    }
+    .menus-btn {
+        margin: 25px 0;
+    }
+    .contact {
+        padding: 60px 0;
+    }
+    .slider-single-item span:nth-child(2) h5 {
+        font-size: 22px;
+    }
+    .slider-single-item span:nth-child(2) h6 {
+        font-size: 18px;
+    }
+    .slider-single-item p {
+        margin: 15px 0 25px 0;
+    }
+    .contact-form-sec {
+        padding: 35px 15px;
+        margin-top: 11%;
+    }
+    .contact-form-sec .form-row button.form-btn-c {
+        font-size: 18px;
+    }
+    .events-card .card .card-body h4 {
+        font-size: 20px;
+        font-weight: 800;
+        padding: 20px 0px;
+        margin-top: -64px;
+    }
+    .footer-top-bg {
+        padding: 26px;
+        width: 90%;
+        margin-top: -196px;
+    }
+    .events {
+        padding: 60px 0 145px 0;
+    }
+    .footer-top h2 {
+        font-size: 20px;
+    }
+    .footer-right {
+        text-align: center;
+        margin-top: 0px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .menu li {
+        margin-left: 0;
+    }
+    .banner-content h1 {
+        font-size: 45px;
+    }
+    .banner {
+        padding: 70px 0;
+    }
+    .banner-wave svg {
+        bottom: -90px;
+    }
+    .recipes {
+        padding: 70px 0;
+    }
+    .about-us {
+        padding: 70px 0;
+        background-image: linear-gradient(180deg, rgba(252,216,140,1)100%,rgba(0,0,0,0.7)50%), url(../images/bgc.jpg);
+    }
+    .about-video {
+        display: none;
+    }
+    .menus {
+        padding: 70px 0 45px 0;
+    }
+    .menus-btn ul li {
+        font-size: 15px;
+        margin-right: 0px;
+    }
+    .contact {
+        padding: 70px 0;
+    }
+    .contact-slider {
+        margin-top: 0%;
+    }
+    .contact-form-sec {
+        margin-top: 6%;
+    }
+    .footer-top-bg {
+        padding: 30px;
+    }
+    .footer-top h2 {
+        font-size: 25px;
+    }
+    .footer-top-btn button {
+        margin-left: 0;
+    }
+    .events {
+        padding: 70px 0 155px 0;
+    }
+    .footer-right {
+        text-align: center;
+        margin-top: 0;
+    }
+    .copy-text {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu li {
+        margin-left: 0;
+    }
+    .banner-content h1 {
+        font-size: 55px;
+    }
+    .banner-content p {
+        margin: 20px 0;
+    }
+    .banner-img img {
+        margin-top: 99px;
+    }
+    .banner-wave svg {
+        bottom: -124px;
+    }
+    .card-img-cus {
+        height: 141px;
+    }
+    .card-body span.price {
+        font-size: 18px;
+        margin-left: 3%;
+    }
+    .about-content h2 {
+        z-index: 1;
+    }
+    .about-content h2 hr.bg-2 {
+        bottom: -13px;
+    }
+    .about-us {
+        background-image: linear-gradient(108deg, rgba(252,216,140,1)59%,rgba(0,0,0,0.7)50%), url(../images/bgc.jpg);
+    }
+    .about-video a {
+        right: 18.5%;
+    }
+    .about-video span:nth-child(2) {
+        right: 8.5%;
+    }
+    .about-video span:nth-child(1) {
+        right: 1%;
+    }
+    .menus-btn ul li {
+        margin-right: 22px;
+    }
+    .contact-slider {
+        margin-top: 0%;
+    }
+    .contact-form-sec {
+        margin-top: 4.5%;
+    }
+    .events-card .card .card-body h4 {
+        padding: 24px 0px;
+        box-shadow: 0px 0px 18px 0px rgb(161 165 227 / 32%);
+        margin-top: -74px;
+    }
+    .footer-top h2 {
+        font-size: 28px;
+    }
+    .footer-top-bg {
+        background-color: #fe8600;
+        padding: 25px;
+        width: 81%;
+        margin: 0 auto;
+        margin-top: -195px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner-wave svg {
+        bottom: -176px;
+    } 
+    .card-body span.price {
+        font-size: 18px;
+        margin-left: 34%;
+    }
+    .about-video a {
+        right: 28.5%;
+    }
+    .about-video span:nth-child(1) {
+        right: 16%;
+    }
+    .events-card .card .card-body h4 {
+        padding: 24px 35px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .banner-wave svg {
+        bottom: -199px;
+    }
+}
+@media (min-width: 1601px) {
+    .banner-img img {
+        margin-top: -16%;
+    }
+    .banner-wave svg {
+        bottom: -243px;
+    }
+}
